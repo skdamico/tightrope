@@ -1,0 +1,66 @@
+Mono path[0] = 'C:/Users/Public/Documents/Unity Projects/Tightrope/tightrope_debug_Data/Managed'
+Mono path[1] = 'C:/Users/Public/Documents/Unity Projects/Tightrope/tightrope_debug_Data/Mono'
+Mono config path = 'C:/Users/Public/Documents/Unity Projects/Tightrope/tightrope_debug_Data/Mono/etc'
+PlayerConnection initialized from C:/Users/Public/Documents/Unity Projects/Tightrope/tightrope_debug_Data (debug = 0)
+PlayerConnection initialized network socket : 0.0.0.0 55031
+Multi-casting "[IP] 192.168.1.9 [Port] 55031 [Flags] 3 [Guid] 3402822721 [EditorId] 946934787 [Version] 1048832 [Id] WindowsPlayer(stefjam) [Debug] 1" to [225.0.0.222:54997]...
+Waiting for connection from host on [192.168.1.9:55031]...
+PlayerConnection accepted from [192.168.1.9] handle:0x2fc
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,defer=y,address=0.0.0.0:56721
+PlayerConnection already initialized - listening to [192.168.1.9:55031]
+Initialize engine version: 5.4.0b12 (56ed5ba0a871)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GTX 980 Ti (ID=0x17c8)
+    Vendor:   NVIDIA
+    VRAM:     6047 MB
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+- Completed reload, in  0.138 seconds
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\Public\Documents\Unity Projects\Tightrope\tightrope_debug_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1280x800 32Hz; virtual: 1920x1200 at 0,0
+<RI> Initialized touch support.
+Compositor failed to initialize.Compositor failed to initialize.VR: OpenVR Error! OpenVR failed initialization with error code VRInitError_IPC_ConnectFailed: "Connect to VR Server Failed (301)"!
+ 
+(Filename: C:/buildslave/unity/build/Runtime/VR/openvr/OpenVR.cpp Line: 294)
+
+UnloadTime: 0.780288 ms
+why you no log
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+UnityEngine.MonoBehaviour:print(Object) (at C:\buildslave\unity\build\artifacts\generated\common\runtime\UnityEngineMonoBehaviourBindings.gen.cs:106)
+Tightrope_LedgeBreak:Awake() (at C:\Users\Public\Documents\Unity Projects\Tightrope\Assets\Tightrope\Scripts\Tightrope_LedgeBreak.cs:10)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/UnityEngineMonoBehaviourBindings.gen.cs Line: 106)
+
+OpenVR initialization failed.  Ensure 'Virtual Reality Supported' is checked in Player Settings, and OpenVR is added to the list of Virtual Reality SDKs.
+UnityEngine.DebugLogHandler:Internal_Log(LogType, String, Object)
+UnityEngine.DebugLogHandler:LogFormat(LogType, Object, String, Object[])
+UnityEngine.Logger:Log(LogType, Object)
+UnityEngine.Debug:Log(Object)
+SteamVR:CreateInstance() (at C:\Users\Public\Documents\Unity Projects\Tightrope\Assets\SteamVR\Scripts\SteamVR.cs:75)
+SteamVR:get_instance() (at C:\Users\Public\Documents\Unity Projects\Tightrope\Assets\SteamVR\Scripts\SteamVR.cs:44)
+SteamVR_Render:Update() (at C:\Users\Public\Documents\Unity Projects\Tightrope\Assets\SteamVR\Scripts\SteamVR_Render.cs:399)
+ 
+(Filename: C:/Users/Public/Documents/Unity Projects/Tightrope/Assets/SteamVR/Scripts/SteamVR.cs Line: 75)
+
+Setting up 1 worker threads for Enlighten.
+  Thread -> id: ba0 -> priority: 1 
+Waiting for finish
